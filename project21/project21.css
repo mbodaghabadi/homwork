@@ -1,0 +1,57 @@
+body{
+    font-family: 'DM Sans';
+    display: flex;
+    justify-items: center;
+    margin-top : 10px ;
+    margin-left: 20%;
+    width: 1400px;
+}
+h2{
+   color: #1E0E62;
+   width: 570px;
+   font-size: 42px;
+   margin: 0px;
+}
+p{
+    color: #15143966;
+    margin-top: 20px;
+}
+.head>p{
+    width: 60%;
+}
+img{
+  width: 485px;
+  height: 845px;
+  margin-top: 0px ;
+}
+.sub-head2>img{
+    width: 50px;
+    height: 50px;
+}
+.sub-head1>img{
+    width: 50px;
+    height: 50px;
+}
+.blogs{
+    display: flex;
+    gap: 80px;
+    margin-top: 60px;
+    width: 70%;
+}
+h3{
+    color: #1E0E62;
+}
+button{
+    background-color: #E93A7D;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+}
+.head{
+    margin-top: 100px;
+}
