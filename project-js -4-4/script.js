@@ -17,7 +17,7 @@ function countRepeatedItems(str) {
     }
     for(const x in obj){
         if(obj[x]>1){
-            console.log(letter ${x} occurs ${obj[x]} )
+            console.log(`letter ${x} occurs ${obj[x]}` )
         }
         
     }
