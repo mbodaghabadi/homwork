@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+
+body,
+html {
+    font-family: 'Figtree', sans-serif;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    margin: 10px 30px;
+    gap: 6rem;
+
+}
+
+.right-content {
+    background-image: url(img/Rectangle\ 1.png);
+    background-size: cover;
+    display: flex;
+    /* width: 700px; */
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    height: 860px;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10rem;
+    flex-shrink: 0;
+
+}
+
+.top-right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.title-right-content {
+    width: 592px;
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.description-right-content {
+    width: 592px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bottom-right-content {
+    width: 592px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    position: relative;
+    top: 75px;
+
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 50%;
+
+    /* width: 400px; */
+    position: relative;
+    top: 2rem;
+    height: 708px;
+
+}
+
+.head-left-content {
+    width: 350px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.top-left-content {
+    margin-bottom: 1rem;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+}
+
+.inputs-left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+
+input {
+    padding-left: 35px;
+    height: 55px;
+    width: 358px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+}
+
+.button-creat-acount {
+
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    background: #000;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 {
+    background-color: #000;
+    color: #FFF;
+    border: 1px solid black;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.log-in {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 390px;
+
+}
+
+.p1 {
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.a1 {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.bottom-left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.button2 {
+    display: flex;
+    width: 400px;
+    height: 60px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    background: #000;
+    color: #FFF;
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button2::before {
+    content: url(img/image.svg);
+}
+
+.button3 {
+    display: flex;
+    width: 400px;
+    height: 60px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: #FFF;
+}
+
+.button3::before {
+    content: url(img/image\ \(1\).svg);
+}
