@@ -27,7 +27,7 @@ function joinTogether(joinNames) {
      
 
     else if (length === 2) {
-        return `${names[0]} and ${names[1]} like this.`
+        return `${joinNames[0]} and ${joinNames[1]} like this.`
     }
 
     else {
